@@ -1,0 +1,67 @@
+.app {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 25px rgb(0, 0, 0, 1);
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.circular-img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    margin: 20px 170px 0;
+    border-radius: 50%; /* Makes the image circular */
+    border: none; /* Optional: Adds a white border */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
+    margin-bottom: 10px;
+    background-size: cover;
+  }
+
+ input[type=text],[type=email],[type=password] {
+    width: 400px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(72, 20, 20);
+    background-color: transparent;
+    outline: none;
+  }
+  .container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .submit {
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+    background-color: rgb(192, 191, 191);
+    /* margin-left: 150px; */
+    border: none;
+
+  }
+  .botm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+.submit-gray {
+    background-color: #eaeaea;
+}

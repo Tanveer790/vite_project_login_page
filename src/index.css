@@ -1,0 +1,18 @@
+body {
+  /* background-image: url(components/assets/app_back.jpg); */
+  background-color: rgb(207, 205, 205);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  background-repeat: no-repeat;    
+}
+
+.app {
+  background-size: cover;
+  background-image: url(components/assets/web_back.jpg);
+}
+.circular-img {
+  background-image: url(components/assets/profile.jpg);
+}
